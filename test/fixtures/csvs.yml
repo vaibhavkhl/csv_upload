@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  community: MyString
+  project: MyString
+  serial: 1
+
+two:
+  name: MyString
+  community: MyString
+  project: MyString
+  serial: 1

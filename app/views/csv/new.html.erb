@@ -1,0 +1,30 @@
+  <h3>Import csv files</h3>
+  <% form_tag '/import_csv', :multipart => true do %>
+    <label for="file">File to Upload</label> 
+    <%= file_field_tag "file" %>
+    <br><%= submit_tag 'upload'%>
+  <% end %>
+
+ <hr>
+<h4>Data of table</h4>
+<table>
+<thead>
+<tr>
+	<td>name</td>
+	<td>community</td>
+	<td>project</td>
+	<td>serial</td>
+</tr>
+</thead>
+<tbody>
+ <% @csvdata.each do |row|%>
+ 
+<tr>
+ <td><%= row.name%></td>
+ <td><%= row.community%></td>
+ <td><%= row.project%></td>
+ <td><%= row.serial%></td>
+ </tr>
+ <%end%>
+ </tbody>
+ </table>
