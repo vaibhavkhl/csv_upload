@@ -1,6 +1,5 @@
 GEM
   remote: http://rubygems.org/
-  remote: http://dev-utility-lx07.amdc.mckinsey.com/
   remote: http://gemcutter.org/
   remote: http://gems.github.com/
   specs:
